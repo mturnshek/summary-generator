@@ -2,7 +2,7 @@
 
 ## Usage
 
-## Making this tool
+## How it works
 
 ### Data Collection
 
