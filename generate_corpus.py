@@ -34,12 +34,22 @@ def get_page_summary(title):
         return ""
 
 def collect_corpus(n):
-    titles = get_random_page_titles(n)
+    # Gather titles
+    titles = []
+    titles_to_go = n
+    limit = 500
+    while (titles_to_go > limit):
+        new_titles = get_random_page_titles(limit)
+        titles.extend(new_titles)
+        titles_to_go = titles_to_go - limit
+    new_titles = get_random_page_titles(titles_to_go)
+    titles.extend(new_titles)
 
+    # Gather summaries
     summaries = []
     for i in range(len(titles)):
         print(i, "/", n)
-        summaries = get_page_summary(titles[i])
+        summaries.append(get_page_summary(titles[i]))
  
     title_summary_pairs = list(zip(titles, summaries))
 
@@ -63,7 +73,11 @@ def collect_corpus(n):
     filename = "downloaded_summaries/summaries" + str(random.random())[-10:] + ".txt"
     f = open(filename, 'w+')
     f.write(annotated_text)
+    print("Written to disk.")
+
 
 
 if __name__ == '__main__':
-    collect_corpus(500)
+    n = input('attempt to scan how many pages? > ')
+    n = int(n)
+    collect_corpus(n)
