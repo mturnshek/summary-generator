@@ -1,1 +1,4 @@
 downloaded_summaries/*
+models/*
+checkpoint/*
+samples/*
