@@ -3,7 +3,7 @@ Title: Dog
 > Dog is an English word which refers to a dog, usually a service animal, trained to do a particular task, most often to assist with human interaction, and used for identification. Dogs are generally considered to be part of the “pet” category of pets and are not subject to the same animal welfare criteria as humans.
 > Common uses of the word include “dog”, “doggy”, “doggy-dog”, “doggie”, “dog-like”, “doglike-dog”, “dog odour”, “dog-like-dog”, “dog-like-dog”, “dog-like-dog”, and “dog that can sniff”.
 
-You can also have it completely make things up.
+You can also give it a completely made-up title.
 
 Title: The Barkwatoracus
 > The Barkwatoracus is a genus of insects in the family Aplysia in the order Aplysia. Commonly known in the United States as beeswax-hipped beeswax, the genus is found in temperate regions of southeast and western South America. All species are found from Central America, but the genus is rapidly spreading to temperate regions.
