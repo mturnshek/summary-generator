@@ -4,6 +4,11 @@ import gpt_2_simple as gpt2
 sess = gpt2.start_tf_sess()
 gpt2.load_gpt2(sess)
 
+# TODO
+title_marker = ""
+summary_marker = ""
+end_marker = ""
+
 while True:
     title = input('title > ')
     generations = gpt2.generate(
